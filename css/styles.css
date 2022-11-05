@@ -118,15 +118,18 @@ img {
 .mail-tel .mail:hover,
 .mail-tel .mail:focus,
 .mail-tel .tel:hover,
-.mail-tel .tel:focus,
-.mail-tel .icon:hover,
-.mail-tel .icon:focus {
+.mail-tel .tel:focus {
   color: var(--accent-color);
 }
 
 .mail-tel {
   display: flex;
   margin-left: auto;
+}
+
+.mail-tel .icon:hover,
+.mail-tel .icon:focus {
+  fill: var(--accent-color);
 }
 
 .mail-tel .item + .item {
