@@ -153,12 +153,15 @@ img {
   background-color: var(--hero-footer);
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url("../images/hero.jpg"); 
+  background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url("../images/hero.jpg");
   max-width: 1600px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .hero .container {
   text-align: center;
@@ -279,7 +282,8 @@ img {
   background-color: #ffffff;
   flex-basis: calc((100% - 4 * 30px) / 4);
   margin-left: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -322,15 +326,13 @@ img {
   height: 100%;
   align-items: center;
   justify-content: center;
-  fill: #AFB1B8;
+  fill: #afb1b8;
   border-radius: 50%;
 }
 
 .social-item:last-child {
   margin-right: 0;
 }
-
-
 
 /* Постійні клієнти */
 
@@ -355,7 +357,7 @@ img {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
-  fill:  #AFB1B8;
+  fill: #afb1b8;
 }
 
 .clients-link:hover,
@@ -363,7 +365,6 @@ img {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
-
 
 /* Підвал сторінки */
 
@@ -481,7 +482,8 @@ img {
 .radiobutton:focus {
   color: #ffffff;
   background: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border-color: var(--accent-color);
 }
