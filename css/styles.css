@@ -150,6 +150,7 @@ img {
 
 /* Ефективні рішення для вашого бізнесу */
 .hero {
+  margin: 0 auto;
   background-color: var(--hero-footer);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -182,9 +183,8 @@ img {
   display: flex;
   background: var(--accent-color);
   font-family: Roboto, sans-serif;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
-  border-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -202,6 +202,8 @@ img {
 .button:focus {
   background: #188ce8;
   border-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* Наші переваги та вміння */
@@ -309,7 +311,7 @@ img {
 }
 
 .team-people .social-link:hover,
-.team-people .social-link:hover {
+.team-people .social-link:focus {
   fill: #ffffff;
   background-color: var(--accent-color);
 }
@@ -437,14 +439,15 @@ img {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-icons .social-item:hover,
-.footer-social-icons .social-item:focus {
-  background-color: var(--accent-color);
-}
-
 .footer-social-icons .social-link {
   fill: #ffffff;
 }
+
+.footer-social-icons .social-link:hover,
+.footer-social-icons .social-link:focus {
+  background-color: var(--accent-color);
+}
+
 
 /* Сторінка Портфоліо */
 
@@ -462,8 +465,8 @@ img {
 
 .radiobutton {
   background: #f5f4fa;
+  border: none;
   border-radius: 4px;
-  border-color: #f5f4fa;
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -475,6 +478,7 @@ img {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  
 }
 
 /* Радіокнопки при наведенні */
