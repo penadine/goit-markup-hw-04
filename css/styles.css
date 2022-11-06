@@ -507,7 +507,6 @@ img {
 
 .work .portfolio-link {
   display: block;
-  color: var(--paragraph-color);
 }
 
 .work .portfolio-link:hover,
@@ -537,4 +536,5 @@ img {
 .order-type {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--paragraph-color);
 }
